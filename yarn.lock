@@ -1965,10 +1965,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier-cli-watcher@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/prettier-cli-watcher/-/prettier-cli-watcher-0.0.5.tgz#ed18e30c9d11b85f7358b4510319da277721e3e7"
-  integrity sha512-+8lTJjbXghp8i2uAuvQdbFtwNoh0CliFg6YBqOejnIdmNlAW+7/5vPv9IzroMqhqK3xVgaH16RNM9kRLwP+zGg==
+prettier-cli-watcher@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/prettier-cli-watcher/-/prettier-cli-watcher-0.1.5.tgz#1d880bf2a18fb8ccad261babb70c90d69aa01bc5"
+  integrity sha512-DueRDAe4KCW9DBw09jQ5is4c/1GHorshbJoaEv+yrmGR2UkExPuwsMOqh4mP8o6NAjsiK6YkBa1pP5eGTezFTg==
   dependencies:
     chalk "^2.4.1"
     chokidar "^2.0.4"
