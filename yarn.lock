@@ -667,10 +667,10 @@ eslint-config-prettier@^3.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-simple@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-simple/-/eslint-config-simple-0.0.1.tgz#1389b88ba0fc869859eb447c9a6a10e1997688ff"
-  integrity sha512-pFtO0oXEi3jcjHWf3UkkkUTqbSn2/HvIIQ7V5d+oyU6hPlNbwr2vvR1rfT+oLz3jZv1Rm8P4igTkfUHw60Zx9g==
+eslint-config-simple@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-simple/-/eslint-config-simple-0.0.2.tgz#3eeb0213b06f80af2bbc32b570c1a7e14770fc00"
+  integrity sha512-wGQN7TcLMKtmY1m8m7L6iQ54at/birrxSr8o1yTT3JOyJdOKmTrctC7lVOSZqwta0M65lP5ZZDirdgdFKIbUkg==
   dependencies:
     babel-eslint "^10.0.1"
     eslint-config-airbnb "^17.1.0"
