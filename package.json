@@ -14,6 +14,7 @@
 	"dependencies": {
 		"archy": "^1.0.0",
 		"chalk": "^2.4.2",
+		"pluralize": "^7.0.0",
 		"strip-ansi": "^5.2.0",
 		"text-table": "^0.2.0"
 	},
@@ -36,8 +37,8 @@
 	},
 	"devDependencies": {
 		"babel-eslint": "^10.0.1",
-		"eslint": "5.3.0",
-		"eslint-config-simple": "^0.0.5",
-		"prettier-cli-watcher": "^0.3.1"
+		"eslint": "^5.16.0",
+		"eslint-config-simple": "*",
+		"prettier-cli-watcher": "*"
 	}
 }
