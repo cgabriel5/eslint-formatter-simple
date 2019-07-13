@@ -158,7 +158,8 @@ let summary_section = (header, errors, warnings, files, file_count, data) => {
 			// Else the file contained within a sub folder so make on object
 			// for archy if not already created or update the nodes if
 			// already created.
-			if (dirsubs.hasOwnProperty(dirname)) {
+			// [https://eslint.org/docs/rules/no-prototype-builtins]
+			if (Object.prototype.hasOwnProperty.call(dirsubs, dirname)) {
 				// Update the archy nodes array.
 				dirsubs[dirname].nodes.push(decorated_fpath);
 			} else {
