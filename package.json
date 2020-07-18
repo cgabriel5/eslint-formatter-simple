@@ -1,6 +1,6 @@
 {
 	"name": "eslint-formatter-simple",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "A simple ESLint formatter. Formats ESLint results in a simple, human-readable manner.",
 	"main": "./src/index.js",
 	"bugs": {
