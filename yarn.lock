@@ -545,9 +545,9 @@ eslint-config-prettier@^6.11.0:
     get-stdin "^6.0.0"
 
 eslint-config-simple@*:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/eslint-config-simple/-/eslint-config-simple-0.0.11.tgz#9980ac0708f5ddbf8a4c66b386530c70b362c66a"
-  integrity sha512-Ik7r6LJYjgp3rrs9tdTw2xAa1eWm6LgYLYYx3o2ZMEIYvhKb5ZTRLU5hjt62ehnZ23Vs/GUXBTcS3hhu/KLwZg==
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/eslint-config-simple/-/eslint-config-simple-0.0.12.tgz#b76c67254c0230e6303660c02df4bc83db4ba8f0"
+  integrity sha512-Y/waa7XLDi1Wt9Np3zZB4TjmB5Jx0sCKvXDWsYD/lzRMu6b8h6UqAGQ+F4Cu9YWjlSAj8wYSwOVotZb+iI/tyA==
   dependencies:
     babel-eslint "^10.1.0"
     eslint-config-airbnb "^18.2.0"
