@@ -37,8 +37,9 @@
 	},
 	"devDependencies": {
 		"babel-eslint": "^10.1.0",
-		"eslint": "^7.4.0",
-		"eslint-config-simple": "*",
-		"prettier-cli-watcher": "^1.0.1"
+		"eslint": "^7.22.0",
+		"eslint-config-simple": "^0.0.13",
+		"prettier": "^2.2.1",
+		"prettier-cli-watcher": "^1.0.5"
 	}
 }
