@@ -9,7 +9,7 @@ const table = require("text-table");
 const strip_ansi = require("strip-ansi");
 
 // Remove ansi color to get the string length.
-const string_length = function(string) {
+const string_length = function (string) {
 	return strip_ansi(string).length;
 };
 
@@ -40,7 +40,7 @@ const string_length = function(string) {
  * @param  {object} data - Main object containing all cleaned result data.
  * @return {string} - The file's final output to print to terminal.
  */
-let printer = data => {
+let printer = (data) => {
 	// Vars.
 	let { filepath, errors, warnings, fixables } = data;
 	let result = [];
@@ -222,7 +222,7 @@ let summary_section = (header, errors, warnings, files, file_count, data) => {
  * @param  {object} data - Main object containing all cleaned result data.
  * @return {string} - The eslint run summary to print.
  */
-let summary = data => {
+let summary = (data) => {
 	// Vars.
 	let result = [];
 
@@ -273,7 +273,7 @@ let summary = data => {
  * @param  {object} data - Main object containing all cleaned result data.
  * @return {string} - The final output to give to eslint.
  */
-let output = data => {
+let output = (data) => {
 	// Create the final output string.
 	let stdout = [];
 

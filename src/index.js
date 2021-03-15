@@ -12,7 +12,7 @@ const { printer, output } = require("./output.js");
  *
  * @resource - [https://eslint.org/docs/developer-guide/working-with-custom-formatters]
  */
-module.exports = function(results = []) {
+module.exports = function (results = []) {
 	// Keep tabs warnings, errors, files, and output.
 	let data = {
 		output: [],
